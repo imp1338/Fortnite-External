@@ -77,6 +77,8 @@ Toggle weapon drawing for player visualization.
 
 This cheat is for educational purposes only. Using cheats in online games may violate the terms of service of the respective game and can lead to penalties or bans. Use at your own risk.
 
+This cheat is outdated, and needs to new offsets, and such, everything should be working tho.
+
 ## Contributing
 
 Contributions are welcome! If you have any ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
