@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="InternalDefines">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="InternalDefines\Framework">
+      <UniqueIdentifier>{d2665175-81aa-46e4-8716-d1048f3fd62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalDefines\Framework\DirectX9">
+      <UniqueIdentifier>{ef129033-d63b-4caa-b6a5-48b09dfe37ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalDefines\Framework\ImGui">
+      <UniqueIdentifier>{98f2b667-1fbc-4c9f-b46e-90a1aa944687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalDefines\Defintions">
+      <UniqueIdentifier>{f5063527-c03b-473a-9d6a-edab76a720b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalDefines\Defintions\FortGame">
+      <UniqueIdentifier>{3da0c1e4-dedf-44c3-bc61-4167c898aba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalDefines\Defintions\Defines">
+      <UniqueIdentifier>{27af3f5e-b41f-467d-bc37-5953e807f097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalDefines\Defintions\Encryption">
+      <UniqueIdentifier>{2be23a5e-2dfb-40c1-8256-dd16999c30a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalDefines\Defintions\ConsoleItems">
+      <UniqueIdentifier>{679aa067-3c13-422c-83bb-8026953194ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalDefines\WindowSettings">
+      <UniqueIdentifier>{a453aab4-7fb4-42f0-aba7-16a4ab9258fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalDefines\WindowSettings\Overlay">
+      <UniqueIdentifier>{ec2626ce-1b3f-4a9a-9bad-827670f5fce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalDefines\Communications">
+      <UniqueIdentifier>{28409758-e266-47cd-b4a9-342dca47a8c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalDefines\Communications\DriverCommunication">
+      <UniqueIdentifier>{887fc83e-2800-430e-a817-da6d880e257b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalEntry">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="InternalDefines\Defintions\FortGame\UE5Defines">
+      <UniqueIdentifier>{1390e64d-2b30-48a3-81dc-ff60d73bccc7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>InternalEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>InternalDefines\Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>InternalDefines\Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>InternalDefines\Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>InternalDefines\Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>InternalDefines\Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>InternalDefines\Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_tables.cpp">
+      <Filter>InternalDefines\Framework\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Imgui\imgui_impl_dx9.h">
+      <Filter>InternalDefines\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>InternalDefines\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>InternalDefines\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>InternalDefines\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>InternalDefines\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>InternalDefines\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>InternalDefines\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>InternalDefines\Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="color_console.h">
+      <Filter>InternalDefines\Defintions\ConsoleItems</Filter>
+    </ClInclude>
+    <ClInclude Include="console_drawing.h">
+      <Filter>InternalDefines\Defintions\ConsoleItems</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>InternalDefines\Defintions\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="func_enc.h">
+      <Filter>InternalDefines\Defintions\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="string_enc.hpp">
+      <Filter>InternalDefines\Defintions\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>InternalDefines\Defintions\FortGame</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlayDefines.h">
+      <Filter>InternalDefines\WindowSettings\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\d3dx11.h">
+      <Filter>InternalDefines\Framework\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\d3dx11async.h">
+      <Filter>InternalDefines\Framework\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\d3dx11core.h">
+      <Filter>InternalDefines\Framework\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\d3dx11tex.h">
+      <Filter>InternalDefines\Framework\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\d3dx9.h">
+      <Filter>InternalDefines\Framework\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\d3dx9anim.h">
+      <Filter>InternalDefines\Framework\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\d3dx9core.h">
+      <Filter>InternalDefines\Framework\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\d3dx9effect.h">
+      <Filter>InternalDefines\Framework\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\d3dx9math.h">
+      <Filter>InternalDefines\Framework\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\d3dx9mesh.h">
+      <Filter>InternalDefines\Framework\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\d3dx9shader.h">
+      <Filter>InternalDefines\Framework\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\d3dx9shape.h">
+      <Filter>InternalDefines\Framework\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\d3dx9tex.h">
+      <Filter>InternalDefines\Framework\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\d3dx9xof.h">
+      <Filter>InternalDefines\Framework\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.hh">
+      <Filter>InternalDefines\Communications\DriverCommunication</Filter>
+    </ClInclude>
+    <ClInclude Include="xor_enc.hpp">
+      <Filter>InternalDefines\Defintions\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>InternalDefines\Defintions\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk_func.h">
+      <Filter>InternalDefines\Defintions\FortGame</Filter>
+    </ClInclude>
+    <ClInclude Include="imported_enc.h">
+      <Filter>InternalDefines\Defintions\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionDefine.h">
+      <Filter>InternalDefines\WindowSettings\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="FString.cpp">
+      <Filter>InternalDefines\Defintions\FortGame\UE5Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="FString.h">
+      <Filter>InternalDefines\Defintions\FortGame\UE5Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="UE5FunctionDefines.h">
+      <Filter>InternalDefines\Defintions\FortGame\UE5Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="HxDef.hh">
+      <Filter>InternalDefines\Defintions\FortGame\UE5Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuDefines.h">
+      <Filter>InternalDefines\Defintions\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="HijackOverlay.h">
+      <Filter>InternalDefines\WindowSettings\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>InternalDefines\Defintions\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="memorys.hh">
+      <Filter>InternalDefines\Communications\DriverCommunication</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DirectX9\d3dx9math.inl">
+      <Filter>InternalDefines\Framework\DirectX9</Filter>
+    </None>
+  </ItemGroup>
+</Project>
