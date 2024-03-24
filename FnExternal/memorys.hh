@@ -31,7 +31,7 @@ class Memory {
 public:
 
 	bool SetupCommunication() {
-		DeviceHandle = CreateFileW((L"\\\\.\\\\neutronwin"), GENERIC_READ | GENERIC_WRITE, FILE_SHARE_READ | FILE_SHARE_WRITE, NULL, OPEN_EXISTING, 0, NULL);
+		DeviceHandle = CreateFileW((L"\\\\.\\\\{019237847183893-187826146798791-8167357189463-8722534623721}"), GENERIC_READ | GENERIC_WRITE, FILE_SHARE_READ | FILE_SHARE_WRITE, NULL, OPEN_EXISTING, 0, NULL);
 
 		if (!DeviceHandle || (DeviceHandle == INVALID_HANDLE_VALUE))
 			return false;
