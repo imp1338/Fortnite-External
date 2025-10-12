@@ -1,3 +1,5 @@
+.thank you to all my paster sons, for promoting this absolute disgusting paste that you may find to be beyond comprehension, this was made with my dick in my hand and the other hand on a line of coke/
+
 # Fortnite External Cheat
 
 This is a Fortnite external cheat with various features designed to enhance your gameplay experience. The cheat includes features like Aimbot, ESP (Extra Sensory Perception), and other utility options. Additionally, it comes with Overlay Hijacking, a Communication Driver, and a clean console for easy use. The cheat is self-coded, ensuring a high level of customization and reliability.
